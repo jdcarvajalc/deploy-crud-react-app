@@ -51,7 +51,7 @@ const LoginForm = ({ formTitle }) => {
             });
         } catch (error) {
             console.error("Error al iniciar sesión:", error);
-        }
+        }finally{Swal.close()}
     };
 
     return (
