@@ -44,20 +44,9 @@ const LoginForm = ({ formTitle }) => {
                     userData.email === values.email &&
                     userData.password === values.password
                 ) {
-                    Swal.fire({
-                        icon: "success",
-                        title: "Inicio de sesión con correo y contraseña completado",
-                        showConfirmButton: false,
-                        timer: 1500,
-                    });
                     navigate("/vhome");
                 } else {
-                    Swal.fire({
-                        icon: "error",
-                        title: "Datos incorrectos",
-                        showConfirmButton: false,
-                        timer: 1500,
-                    });
+                    console.log("Intenta de nuevo");
                 }
             });
         } catch (error) {
