@@ -1,0 +1,18 @@
+nav{
+    background-color: var(--main-color);
+    color: var(--light-text-color);
+    padding: 0 10vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    padding: 0;
+    font-size: 1.5em;
+    color: var(--light-text-color);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}

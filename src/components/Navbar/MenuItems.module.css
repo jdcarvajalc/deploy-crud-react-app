@@ -1,0 +1,20 @@
+li{
+    position: relative;
+    font-size: 1em;
+    padding-right: 3em;
+    color: var(--container-color);
+    font-weight: 500;
+}
+a{
+    display: block;
+    font-size: inherit;
+    color: var(--container-color);
+    text-decoration: none;
+}
+button{
+    font-size: inherit;
+    font-weight: 500;
+    color: var(--container-color);
+    background-color: var(--main-color);
+    border: none;
+}

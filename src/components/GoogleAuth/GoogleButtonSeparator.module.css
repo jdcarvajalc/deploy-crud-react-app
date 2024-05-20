@@ -1,0 +1,26 @@
+/* OR separator styling */
+.orSeparator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.orLeftLine {
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 0 10px 0 0;
+}
+
+.orRightLine{
+    height: 1px;
+    width: 100%;
+    background-color: #ccc;
+    margin: 0 0 0 10px;
+}
+
+.orText {
+    color: #ccc;
+    margin: 0 1px;
+}

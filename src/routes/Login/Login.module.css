@@ -1,0 +1,12 @@
+.login{
+    height: 100vh;
+}
+
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    transform: translate(0, 2px);
+}
