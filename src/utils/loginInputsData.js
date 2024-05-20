@@ -20,7 +20,7 @@ export const passwordInput = {
     label: "Contraseña",
     type: "password",
     name: "password",
-    placeholder: "Escriba su nueva contraseña",
+    placeholder: "Escriba su contraseña",
     errorMessage:
         "¡Por favor, no debe estar vacío y/o debe ser una contraseña válida!",
     /*
